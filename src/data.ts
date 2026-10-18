@@ -638,6 +638,15 @@ export const initialSites: Site[] = [
     description:
       'Free, metal-first browser backing band with drums, bass, chord accompaniment, scenes and fills. WebMIDI controller mappings and live MIDI output to compatible software or hardware receivers require a supported browser and MIDI permission.',
   },
+
+   {
+    id: 'scott-family-music',
+    name: 'Scott Family Music',
+    url: 'https://scottfamilymusic.com/',
+    tags: ['theory', 'games', 'keyboard', 'controller'],
+    description:
+      'Theory quizes a music based games',
+  },
 ];
 
 export const allTags = Array.from(
